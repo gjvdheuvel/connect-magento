@@ -6,6 +6,7 @@ class Laposta_Util
     {
 
         $error = false;
+        $error_msg = false;
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
